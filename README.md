@@ -1,2 +1,10 @@
-# codesandbox-test
-Created with CodeSandbox
+# Udemy モダンJavaScriptの基礎から始める挫折しないためのReact入門
+- JavaScriptのみでTODOアプリを作成してみよう<br>
+	- 先にhtmlとcssでデザインをサクッと作って、DOM構造を視覚的にわかりやすくしながらJavaScriptの実装に重きが置かれていてよかった
+	- DOMの操作に関して手を動かして学べた
+		- 内容のほとんどがこれ
+		- parentNode系まとめたサイトないかな 
+	- 似たような動作を関数化するのがまだ苦手かも
+		- 関数の範囲がどこからどこまでかを考えるのに苦戦した
+		- 関数化した後、どこで実行するかが迷う
+	- classの付け外しでアニメーションを作るなどはなかった
