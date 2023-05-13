@@ -1,10 +1,14 @@
-import "./styles.css";
+"use strict";
 
-document.getElementById("app").innerHTML = `
-<h1>Hello Vanilla!</h1>
-<div>
-  We use the same configuration as Parcel to bundle this sandbox, you can find more
-  info about Parcel 
-  <a href="https://parceljs.org" target="_blank" rel="noopener noreferrer">here</a>.
-</div>
-`;
+{
+  const onClickAdd = () => {
+    //テキストボックスの値を変数に格納し、初期化
+    const inputText = document.getElementById("add-text").value;
+    document.getElementById("add-text").value = "";
+    alert(inputText);
+  };
+
+  document.getElementById("add-button").addEventListener("click", () => {
+    onClickAdd();
+  });
+}
